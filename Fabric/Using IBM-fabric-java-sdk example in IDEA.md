@@ -61,7 +61,7 @@ log4j.appender.R.layout = org.apache.log4j.PatternLayout
 #log4j.appender.R.layout.ConversionPattern = %-d{yyyy-MM-dd HH:mm:ss}-[%p]%m%n
 log4j.appender.R.layout.ConversionPattern = %d [%t] %p [%c] - %m%n
 ```
-
+![image-20201104154436045](https://github.com/xiahan1997/MyNotes/blob/main/Fabric/images/image-20201104154436045.png)
 打开Project Structure，将resources文件夹设置为Resources Folder
 
 ![image-20201104093845934](https://github.com/xiahan1997/MyNotes/blob/main/Fabric/images/image-20201104093845934.png)
