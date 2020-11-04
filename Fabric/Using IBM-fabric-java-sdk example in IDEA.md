@@ -4,7 +4,7 @@
 
 File -> open... 选择java文件夹
 
-![image-20201104083409589](/../images/image-20201104083409589.png)
+![image-20201104083409589](https://github.com/xiahan1997/MyNotes/blob/main/Fabric/images/image-20201104083409589.png)
 
 打开后package、import标红，因为这里package从org开始，所以源文件目录需要定位到org的上级目录
 
@@ -12,7 +12,7 @@ File -> open... 选择java文件夹
 
 找到main下的java文件夹，右键设为Sources，将原来的src删除
 
-![image-20201104083534440](https://github.com/xiahan1997/MyNotes/Fabric/images/image-20201104083534440.png)
+![image-20201104083534440](https://github.com/xiahan1997/MyNotes/blob/main/Fabric/images/image-20201104083534440.png)
 
 点击OK，此时package标红消失，import标红仍在。
 
@@ -22,7 +22,7 @@ File -> open... 选择java文件夹
 
 点击IDEA窗口最右侧的Maven侧边栏，调出Maven相关操作与信息的菜单后使用Lifecycle中的install（双击）进行安装
 
-![image-20201104101849934](https://github.com/xiahan1997/MyNotes/Fabric/images/image-20201104101849934.png)
+![image-20201104101849934](https://github.com/xiahan1997/MyNotes/blob/main/Fabric/images/image-20201104101849934.png)
 
 ## 尝试运行与处理报错
 
@@ -35,7 +35,7 @@ cd network
 
 在IDEA中打开/network/CreateChannel.java，右击run，出现报错
 
-![image-20201104091005002](/images/image-20201104091005002.png)
+![image-20201104091005002](https://github.com/xiahan1997/MyNotes/blob/main/Fabric/images/image-20201104091005002.png)
 
 这是由于依赖了log4j的jar包，而使用log4j需要先编写其配置文件log4j.properties
 
@@ -64,11 +64,11 @@ log4j.appender.R.layout.ConversionPattern = %d [%t] %p [%c] - %m%n
 
 打开Project Structure，将resources文件夹设置为Resources Folder
 
-![image-20201104093845934](https://github.com/xiahan1997/MyNotes/blob/Fabric/images/image-20201104093845934.png)
+![image-20201104093845934](https://github.com/xiahan1997/MyNotes/blob/main/Fabric/images/image-20201104093845934.png)
 
 再次运行/network/CreateChannel.java，log4j warning消失，留下空指针异常：
 
-![image-20201104094512064](https://github.com/xiahan1997/MyNotes/Fabric/images/image-20201104094512064.png)
+![image-20201104094512064](https://github.com/xiahan1997/MyNotes/blob/main/Fabric/images/image-20201104094512064.png)
 
 查看所给命令
 
